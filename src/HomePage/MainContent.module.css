@@ -3,26 +3,33 @@
       grid-template-columns: 1fr 1fr 1fr;
       max-width: 2730px;
       width: 100vw;
-      height: 630px;
+      height: auto;
       margin-left: 10px;
       margin-right: 10px;
+      gap: 20px;
+      padding: 20px;
       align-items: center;
       justify-items: center;
       /* outline: 2px auto black; */
       background: rgb(255, 255, 255);
+      box-sizing: border-box;
 }
 
 .content1 .content2 .content3 {
       justify-content: center;
       display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 20px;
       outline: 1px auto black;
 }
 
 .content1 img,
 .content2 img,
 .content3 img {
-      height: 200px;
-      width: 400px;
+      height: auto;
+      width: 100%;
       justify-items: center;
       align-items: center;
 }

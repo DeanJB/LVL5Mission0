@@ -1,0 +1,165 @@
+.heroContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 2730px;
+      width: 100vw;
+      height: 600px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-image: radial-gradient(
+            circle,
+            #6190f0,
+            #5183e9,
+            #4075e1,
+            #366cd9,
+            #2c63d2,
+            #205aca,
+            #1b53c1,
+            #164cb8,
+            #1046b0,
+            #083fa7
+      );
+}
+
+.text1,
+.text2,
+.text3 {
+      animation: fadeInOut 6s infinte;
+}
+
+.text1:nth-child(1) {
+      animation-delay: 0s;
+}
+
+.text2:nth-child(2) {
+      animation-delay: 2s;
+}
+
+.text3:nth-child(3) {
+      animation-delay: 4s;
+}
+
+.leftBox {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+}
+
+.leftBox h1 {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+            "Open Sans", "Helvetica Neue", sans-serif;
+      opacity: 0;
+      animation: fadeInOut 6s infinite;
+}
+
+.rightBox {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+}
+
+.rightBox input {
+      font-size: 20px;
+      border-radius: 10px;
+      height: 47px;
+      width: 50%;
+      margin-top: 60px;
+      width: 50%;
+      outline: none;
+}
+
+.rightBox button {
+      margin-top: 60px;
+      font-size: 20px;
+      height: 50px;
+      width: 20%;
+      outline: none;
+}
+
+@media (max-width: 1024px) {
+      .heroContainer {
+            height: 300px;
+      }
+      .leftBox h1 {
+            font-size: 40px;
+      }
+      .rightBox input,
+      .rightBox button {
+            font-size: 12px;
+            height: 40px;
+      }
+}
+
+@media (max-width: 600px) {
+      .heroContaioner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+      }
+      .leftBox h1 {
+            font-size: 20px;
+            align-self: center;
+            justify-content: center;
+      }
+      .rightbox {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+      }
+      .rightBox input {
+            width: 100%;
+      }
+      .rightBox button {
+            font-size: 12px;
+            height: 40px;
+            width: 100%;
+      }
+}
+
+@keyframes fadeInOut {
+      0% {
+            opacity: 0;
+      }
+      20% {
+            opacity: 1;
+      }
+      33% {
+            opacity: 1;
+      }
+      50% {
+            opacity: 0;
+      }
+}
+
+@keyframes fadeInOutText {
+      0% {
+            opacity: 0;
+      }
+      20% {
+            opacity: 1;
+      }
+      40% {
+            opacity: 1;
+      }
+      60% {
+            opacity: 0;
+      }
+      100% {
+            opacity: 0;
+      }
+}

@@ -1,0 +1,18 @@
+.mainContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 2730px;
+      width: 100vw;
+      height: 630px;
+      margin-left: 10px;
+      margin-right: 10px;
+      align-items: center;
+      justify-items: center;
+      /* outline: 2px auto black; */
+      background: grey;
+}
+
+.mainContainer .h1 .content1 .content2 .content3 {
+      justify-items: center;
+      display: flex;
+}

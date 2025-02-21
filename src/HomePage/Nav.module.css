@@ -1,0 +1,110 @@
+.navBar {
+      background: rgb(255, 255, 255);
+      max-width: 2730px;
+      width: 100vw;
+      height: 100px;
+      margin-top: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      outline: 2px auto black;
+}
+
+.logoLeft img {
+      height: 80px;
+      width: 250px;
+      margin-left: 40px;
+}
+
+.navList {
+      display: flex;
+      font-weight: bold;
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+      gap: 0px;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      align-items: center;
+}
+
+.navList li {
+      display: flex;
+      border-radius: 5px;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 10px;
+      transition: 0.5s ease;
+}
+
+.navList li:hover {
+      background: rgb(216, 214, 214);
+      cursor: pointer;
+      height: min-content;
+      transform: scale(1.1);
+}
+
+.navRight button {
+      font-weight: bold;
+      margin-right: 40px;
+      font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+      .navBar {
+            padding: 0 15px;
+            height: 70px;
+      }
+
+      .navList {
+            gap: 15px;
+      }
+
+      .navList li {
+            font-size: 12px;
+            display: flex;
+            border-radius: 5px;
+            height: 25px;
+            width: 55px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 10px;
+            transition: 0.5s ease;
+      }
+
+      .logoLeft img {
+            width: 200px;
+            height: 70px;
+      }
+
+      .navRight button {
+            font-size: 15px;
+            margin-right: 20px;
+      }
+}
+
+@media (max-width: 600px) {
+      .navBar {
+            /* padding: 0 10px; */
+            align-items: center;
+            height: 80px;
+            flex-direction: column;
+      }
+
+      .navList {
+            flex-direction: column;
+            gap: 10px;
+      }
+
+      .navList li {
+            font-size: 8px;
+      }
+
+      .logoLeft img {
+            width: 150px;
+            height: 50px;
+      }
+}

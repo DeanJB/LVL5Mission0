@@ -33,3 +33,15 @@
       justify-items: center;
       align-items: center;
 }
+
+@media (max-width: 1024px) {
+      .mainContainer {
+            grid-template-columns: 1fr;
+      }
+}
+
+@media (max-width: 600px) {
+      .mainContainer {
+            grid-template-columns: 1fr;
+      }
+}

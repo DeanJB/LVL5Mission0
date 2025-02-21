@@ -9,10 +9,20 @@
       align-items: center;
       justify-items: center;
       /* outline: 2px auto black; */
-      background: grey;
+      background: rgb(255, 255, 255);
 }
 
-.mainContainer .h1 .content1 .content2 .content3 {
-      justify-items: center;
+.content1 .content2 .content3 {
+      justify-content: center;
       display: flex;
+      outline: 1px auto black;
+}
+
+.content1 img,
+.content2 img,
+.content3 img {
+      height: 200px;
+      width: 400px;
+      justify-items: center;
+      align-items: center;
 }

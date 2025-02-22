@@ -7,7 +7,7 @@ function MainContent() {
                   <div className={styles.content1}>
                         <img src="src\assets\MarketingStategies.jpg"></img>
                         <h1>Marketing</h1>
-                        <p>Learn effective marheting strategies</p>
+                        <p>Learn effective marketing strategies</p>
                   </div>
                   <div className={styles.content2}>
                         <img src="src\assets\TargetMarket.jpg"></img>

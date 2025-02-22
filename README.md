@@ -21,7 +21,7 @@ This project is a one-page homepage for the **Marketing Association New Zealand*
 - The idea for the assignment was to design a Homepage to **educate people on marketing strategies** and help them improve their marketing skills.
 - Screenshots below of the laout I was referencing for the assignment
 
-![Screenshot](src\assets\Framework1.JPG)
+![Screenshot](http://github.com\DeanJB\LVL5Mission0\src\assets\Framework1.JPG)
 ![Screenshot](src\assets\Framework2.JPG)
 
 ## Target Audience

@@ -22,7 +22,7 @@ This project is a one-page homepage for the **Marketing Association New Zealand*
 - Screenshots below of the layout I was referencing for the assignment
 
 ![Screenshot](https://github.com/DeanJB/LVL5Mission0/raw/main/src/assets/Framework1.JPG)
-![Screenshot](src\assets\Framework2.JPG)
+![Screenshot](https://github.com/DeanJB/LVL5Mission0/raw/main/src/assets/Framework2.JPG)
 
 ## Target Audience
 
@@ -72,8 +72,8 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-![Screenshot](src\assets\HomepageDesktopView.png)
-![Screenshot](src\assets\HomepageMobileView.png)
+![Screenshot](https://github.com/DeanJB/LVL5Mission0/raw/main/src/assets/HomepageDesktopView.png)
+![Screenshot](https://github.com/DeanJB/LVL5Mission0/raw/main/src/assets/HomepageMobileView.png)
 
 ## Contact
 
